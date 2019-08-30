@@ -7,7 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D8E5392623199D5400885314 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E5392523199D5400885314 /* main.swift */; };
+		D8E5394523199D6B00885314 /* SSKryptosSculpture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E5392D23199D6A00885314 /* SSKryptosSculpture.swift */; };
+		D8E5394623199D6B00885314 /* SSKryptosDescrambler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E5392E23199D6A00885314 /* SSKryptosDescrambler.swift */; };
+		D8E5394723199D6B00885314 /* SSKryptosEncryptionSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E5392F23199D6A00885314 /* SSKryptosEncryptionSystem.swift */; };
+		D8E5394823199D6B00885314 /* SSKryptosWordDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E5393023199D6A00885314 /* SSKryptosWordDataBase.swift */; };
+		D8E5394923199D6B00885314 /* mathProccessing.metal in Sources */ = {isa = PBXBuildFile; fileRef = D8E5393223199D6A00885314 /* mathProccessing.metal */; };
+		D8E5394A23199D6B00885314 /* GPUMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E5393323199D6A00885314 /* GPUMath.swift */; };
+		D8E5394C23199D6B00885314 /* SSKryptosEncryptionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E5393523199D6A00885314 /* SSKryptosEncryptionary.swift */; };
+		D8E5394D23199D6B00885314 /* KryptosCDModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8E5393823199D6A00885314 /* KryptosCDModel.xcdatamodeld */; };
+		D8E5394E23199D6B00885314 /* KryptosAlphabetUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E5393A23199D6B00885314 /* KryptosAlphabetUtilities.swift */; };
+		D8E5394F23199D6B00885314 /* SSKryptosEncryptionAlphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E5393B23199D6B00885314 /* SSKryptosEncryptionAlphabet.swift */; };
+		D8E5395023199D6B00885314 /* LetterSubstitution.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E5393C23199D6B00885314 /* LetterSubstitution.swift */; };
+		D8E5395123199D6B00885314 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E5394123199D6B00885314 /* Utilities.swift */; };
+		D8E5395223199D6B00885314 /* SSKryptosText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E5394223199D6B00885314 /* SSKryptosText.swift */; };
+		D8E5395323199D6B00885314 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E5394323199D6B00885314 /* main.swift */; };
+		D8E5395423199D6B00885314 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E5394423199D6B00885314 /* Symbol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +38,23 @@
 
 /* Begin PBXFileReference section */
 		D8E5392223199D5400885314 /* Kryptos08302019 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Kryptos08302019; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8E5392523199D5400885314 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D8E5392D23199D6A00885314 /* SSKryptosSculpture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSKryptosSculpture.swift; sourceTree = "<group>"; };
+		D8E5392E23199D6A00885314 /* SSKryptosDescrambler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSKryptosDescrambler.swift; sourceTree = "<group>"; };
+		D8E5392F23199D6A00885314 /* SSKryptosEncryptionSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSKryptosEncryptionSystem.swift; sourceTree = "<group>"; };
+		D8E5393023199D6A00885314 /* SSKryptosWordDataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSKryptosWordDataBase.swift; sourceTree = "<group>"; };
+		D8E5393223199D6A00885314 /* mathProccessing.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = mathProccessing.metal; sourceTree = "<group>"; };
+		D8E5393323199D6A00885314 /* GPUMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPUMath.swift; sourceTree = "<group>"; };
+		D8E5393523199D6A00885314 /* SSKryptosEncryptionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSKryptosEncryptionary.swift; sourceTree = "<group>"; };
+		D8E5393923199D6A00885314 /* KryptosCDModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KryptosCDModel.xcdatamodel; sourceTree = "<group>"; };
+		D8E5393A23199D6B00885314 /* KryptosAlphabetUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KryptosAlphabetUtilities.swift; sourceTree = "<group>"; };
+		D8E5393B23199D6B00885314 /* SSKryptosEncryptionAlphabet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSKryptosEncryptionAlphabet.swift; sourceTree = "<group>"; };
+		D8E5393C23199D6B00885314 /* LetterSubstitution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetterSubstitution.swift; sourceTree = "<group>"; };
+		D8E5393D23199D6B00885314 /* englishWordSetsSortedBySize.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = englishWordSetsSortedBySize.plist; sourceTree = "<group>"; };
+		D8E5393E23199D6B00885314 /* kryptosWords */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = kryptosWords; sourceTree = "<group>"; };
+		D8E5394123199D6B00885314 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		D8E5394223199D6B00885314 /* SSKryptosText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSKryptosText.swift; sourceTree = "<group>"; };
+		D8E5394323199D6B00885314 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D8E5394423199D6B00885314 /* Symbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +87,73 @@
 		D8E5392423199D5400885314 /* Kryptos08302019 */ = {
 			isa = PBXGroup;
 			children = (
-				D8E5392523199D5400885314 /* main.swift */,
+				D8E5392C23199D6A00885314 /* Model */,
 			);
 			path = Kryptos08302019;
+			sourceTree = "<group>";
+		};
+		D8E5392C23199D6A00885314 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D8E5395523199D8200885314 /* CoreLogic */,
+				D8E5393123199D6A00885314 /* GPU Processing */,
+				D8E5393723199D6A00885314 /* CoreData */,
+				D8E5395623199DA600885314 /* Plists */,
+				D8E5394023199D6B00885314 /* Utitlities */,
+				D8E5394323199D6B00885314 /* main.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8E5393123199D6A00885314 /* GPU Processing */ = {
+			isa = PBXGroup;
+			children = (
+				D8E5393223199D6A00885314 /* mathProccessing.metal */,
+				D8E5393323199D6A00885314 /* GPUMath.swift */,
+			);
+			path = "GPU Processing";
+			sourceTree = "<group>";
+		};
+		D8E5393723199D6A00885314 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D8E5393823199D6A00885314 /* KryptosCDModel.xcdatamodeld */,
+				D8E5393A23199D6B00885314 /* KryptosAlphabetUtilities.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		D8E5394023199D6B00885314 /* Utitlities */ = {
+			isa = PBXGroup;
+			children = (
+				D8E5394123199D6B00885314 /* Utilities.swift */,
+			);
+			path = Utitlities;
+			sourceTree = "<group>";
+		};
+		D8E5395523199D8200885314 /* CoreLogic */ = {
+			isa = PBXGroup;
+			children = (
+				D8E5392D23199D6A00885314 /* SSKryptosSculpture.swift */,
+				D8E5392E23199D6A00885314 /* SSKryptosDescrambler.swift */,
+				D8E5392F23199D6A00885314 /* SSKryptosEncryptionSystem.swift */,
+				D8E5393023199D6A00885314 /* SSKryptosWordDataBase.swift */,
+				D8E5393523199D6A00885314 /* SSKryptosEncryptionary.swift */,
+				D8E5393B23199D6B00885314 /* SSKryptosEncryptionAlphabet.swift */,
+				D8E5393C23199D6B00885314 /* LetterSubstitution.swift */,
+				D8E5394223199D6B00885314 /* SSKryptosText.swift */,
+				D8E5394423199D6B00885314 /* Symbol.swift */,
+			);
+			path = CoreLogic;
+			sourceTree = "<group>";
+		};
+		D8E5395623199DA600885314 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				D8E5393D23199D6B00885314 /* englishWordSetsSortedBySize.plist */,
+				D8E5393E23199D6B00885314 /* kryptosWords */,
+			);
+			path = Plists;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +214,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8E5392623199D5400885314 /* main.swift in Sources */,
+				D8E5394723199D6B00885314 /* SSKryptosEncryptionSystem.swift in Sources */,
+				D8E5394D23199D6B00885314 /* KryptosCDModel.xcdatamodeld in Sources */,
+				D8E5395123199D6B00885314 /* Utilities.swift in Sources */,
+				D8E5394523199D6B00885314 /* SSKryptosSculpture.swift in Sources */,
+				D8E5394C23199D6B00885314 /* SSKryptosEncryptionary.swift in Sources */,
+				D8E5395223199D6B00885314 /* SSKryptosText.swift in Sources */,
+				D8E5394923199D6B00885314 /* mathProccessing.metal in Sources */,
+				D8E5394823199D6B00885314 /* SSKryptosWordDataBase.swift in Sources */,
+				D8E5394623199D6B00885314 /* SSKryptosDescrambler.swift in Sources */,
+				D8E5394E23199D6B00885314 /* KryptosAlphabetUtilities.swift in Sources */,
+				D8E5395323199D6B00885314 /* main.swift in Sources */,
+				D8E5394A23199D6B00885314 /* GPUMath.swift in Sources */,
+				D8E5395023199D6B00885314 /* LetterSubstitution.swift in Sources */,
+				D8E5395423199D6B00885314 /* Symbol.swift in Sources */,
+				D8E5394F23199D6B00885314 /* SSKryptosEncryptionAlphabet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +392,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D8E5393823199D6A00885314 /* KryptosCDModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D8E5393923199D6A00885314 /* KryptosCDModel.xcdatamodel */,
+			);
+			currentVersion = D8E5393923199D6A00885314 /* KryptosCDModel.xcdatamodel */;
+			path = KryptosCDModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D8E5391A23199D5400885314 /* Project object */;
 }
