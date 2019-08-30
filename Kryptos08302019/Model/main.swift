@@ -9,17 +9,12 @@
 import Foundation
 
 var programShouldContinueRunning = true
-
-let wordsDatabase = SSKryptosWordDataBase.init()
-var englishWordSet = wordsDatabase.englishWordsSet
-
 let words = Array(Set(SSKryptosWordDataBase.init().englishWordsArray))
-
 var encryptionary : SSKryptosEncryptionary?
 
 //MARK: Enums
 enum UserCommands : String {
-    case buildEncryptionary, encrypt, decrypt, exit, changeKeyword, changeText, k4Brute, runNumbers, tryAllKeys
+    case buildEncryptionary, encrypt, decrypt, exit, k4Brute, changeKeyword, changeText, tryAllKeys
 }
 
 enum SculptureParts : String {
@@ -208,8 +203,6 @@ func decryptAllKeysAgainst(string: String, alphabetName name: String ){
 func decryptAllKeysAgainstSecret() {
 
     NSLog("start time")
-
-
     encryptionary?.decryptSecretUsingKeyWordGroupOnGPUs(keyWords: words,updateProgressBlock: nil )
     {
         ( results ) in
@@ -218,20 +211,6 @@ func decryptAllKeysAgainstSecret() {
     }
 
 }
-
-
-
-//func runNumbers(){
-//
-//    let length = SSKryptosEncryptionAlphabet.AlphabetOrigin.english.rawValue.length
-//    let numbers = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]
-//
-//    for idx in numbers {
-//
-//        let alphabetSequence = numbers
-//
-//    }
-//}
 
 func valueForCommand(_ command: UserCommands) -> String {
     return command.rawValue.lowercased()
@@ -246,7 +225,7 @@ func runAllAlphabetsAndKeysOnK4() {
     if let userAck = readLine()?.lowercased(), ((userAck == "y") || (userAck == "yes")) {
         NSLog("start time")
         
-        for alphabetName in englishWordSet {
+        for alphabetName in words {
             let enc = SSKryptosEncryptionary.init(withText: changeText(stringType: .text),
                                                             keyword: nil,
                                                             andAlphabet: SSKryptosEncryptionAlphabet.init(withAlphabetName: alphabetName as String,
@@ -264,28 +243,7 @@ func runAllAlphabetsAndKeysOnK4() {
     print("Enter a command to start. \n")
 }
 
-
-func breakEncryptionary(_ encryptionary: SSKryptosEncryptionary){
-
-    var ans = [String]()
-    
-    for keyWord in englishWordSet {
-        
-        let message = encryptionary.decryptSecretUsingKeyword(keyWord as String)
-        
-        if message.contains("berlinclock") {
-            print("found berlinclock using key \(keyWord) and alphabet \(encryptionary.alphabet.name)")
-        }
-        ans.append(message)
-    }
-    print(ans)
-
-}
-
-
 //MARK: Program Runtime
-
-//TestFile().run()
 
 print("Enter a command to start. \n")
 
@@ -296,22 +254,6 @@ while programShouldContinueRunning {
         evaluateUserInput(userInput)
     }
 }
-
-
-
-
-////xOBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNypvttmzfpk
-////berlinclock utpwvztd
-
-
-
-
-
-
-
-
-
-
 
 
 
